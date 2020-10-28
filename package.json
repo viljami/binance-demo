@@ -1,0 +1,25 @@
+{
+  "name": "binance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": "^12"
+  },
+  "scripts": {
+    "start": "eval $(echo $(cat .env) node src/index.js)",
+    "test": "./scripts/test.sh"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Viljami Peltola",
+    "email": "viljami.peltola@iki.fi",
+    "url": "http://viljamipeltola.com/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "terminal-kit": "1.44.0",
+    "ws": "7.3.1"
+  }
+}
