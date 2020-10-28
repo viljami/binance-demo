@@ -17,7 +17,7 @@
     "email": "viljami.peltola@iki.fi",
     "url": "http://viljamipeltola.com/"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "terminal-kit": "1.44.0",
     "ws": "7.3.1"
